@@ -8,7 +8,7 @@
 
 @layer components {
   .card {
-    @apply max-w-full w-[4.5rem] h-16 flex flex-col justify-center items-center relative text-4xl after:absolute after:inset-0 after:w-full after:bg-[rgb(var(--neutral-light-blue),0.7)] after:h-3/6 after:rounded-md before:absolute before:bottom-0 before:left-0 before:w-full before:bg-[rgb(var(--neutral-light-blue))] before:h-3/6 before:rounded-md before:-z-10 after:-z-10;
+    @apply sm:w-[7.5rem] sm:h-28 shadow-md shadow-slate-950 max-w-full w-[4.5rem] h-16 flex flex-col justify-center items-center relative text-4xl after:absolute after:inset-0 after:w-full after:bg-[rgb(var(--neutral-light-blue),0.7)] after:h-3/6 after:rounded-xl before:absolute before:bottom-0 before:left-0 before:w-full before:bg-[rgb(var(--neutral-light-blue))] before:h-3/6 before:rounded-xl before:-z-10 after:-z-10;
   }
 }
 
@@ -30,4 +30,7 @@ body {
   background-position: bottom right;
   background-size: auto;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
