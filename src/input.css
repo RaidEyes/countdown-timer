@@ -34,3 +34,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+@media (width > 648px) {
+  body {
+    background-size: contain;
+  }
+}
