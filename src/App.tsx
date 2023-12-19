@@ -39,10 +39,10 @@ function App() {
 
   return (
     <main
-      className="md:max-w-[768px] bg-[url('../public/images/bg-stars.svg')] bg-repeat bg-bottom bg-contain"
+      className="lg:max-w-[885px] lg:w-full md:max-w-[768px] bg-[url('../public/images/bg-stars.svg')] bg-repeat bg-bottom bg-contain"
       id="main"
     >
-      <h1 className="text-center text-xl px-6 pt-40 pb-16 tracking-[0.5rem]">
+      <h1 className="md:pb-32 text-center text-xl px-6 pt-40 pb-16 tracking-[0.5rem]">
         WE'RE LAUNCHING SOON
       </h1>
       <div className="flex flex-row gap-4 text-center justify-between items-center px-5">
