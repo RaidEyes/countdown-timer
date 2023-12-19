@@ -1,3 +1,5 @@
+import React from "react";
+
 function Hour(props: { hour: number }) {
   return (
     <div>
