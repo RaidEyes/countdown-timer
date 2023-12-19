@@ -3,20 +3,31 @@
 @tailwind utilities;
 
 :root {
-    font-family: 'Red Hat Text', sans-serif;
+  font-family: "Red Hat Text", sans-serif;
 }
 
 @layer components {
-    .card {
-        @apply  max-w-full w-[4.5rem] h-16 flex flex-col justify-center items-center relative text-4xl after:absolute after:inset-0 after:w-full after:bg-slate-600 after:h-3/6 after:rounded-md before:absolute before:bottom-0 before:left-0 before:w-full before:bg-slate-500 before:h-3/6 before:rounded-md before:-z-10 after:-z-10;
-    }
+  .card {
+    @apply max-w-full w-[4.5rem] h-16 flex flex-col justify-center items-center relative text-4xl after:absolute after:inset-0 after:w-full after:bg-[rgb(var(--neutral-light-blue),0.7)] after:h-3/6 after:rounded-md before:absolute before:bottom-0 before:left-0 before:w-full before:bg-[rgb(var(--neutral-light-blue))] before:h-3/6 before:rounded-md before:-z-10 after:-z-10;
+  }
 }
+
+@layer base {
+  :root {
+    --primary-blue: 132, 134, 169;
+    --primary-red: 251, 96, 135;
+    --neutral-light-blue: 52, 54, 80;
+    --neutral-dark-blue: 30, 31, 41;
+    --neutral-very-dark-blue: 25, 26, 36;
+  }
+}
+
 body {
-    color: white;
-    background-image: url('../public/images/pattern-hills.svg');
-    background-repeat: no-repeat;
-    background-color: hsl(235, 16%, 14%);
-    background-position: bottom right; 
-   background-size: auto;
-    min-height: 100vh;
+  color: white;
+  background-image: url("../public/images/pattern-hills.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(235, 16%, 14%);
+  background-position: bottom right;
+  background-size: auto;
+  min-height: 100vh;
 }
