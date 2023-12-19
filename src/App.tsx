@@ -39,7 +39,7 @@ function App() {
 
   return (
     <main
-      className="lg:max-w-[860px] lg:w-full md:max-w-[768px] bg-[url('../public/images/bg-stars.svg')] bg-repeat bg-bottom bg-contain"
+      className="lg:w-full md:max-w-[725px] bg-[url('../public/images/bg-stars.svg')] bg-repeat bg-bottom bg-contain"
       id="main"
     >
       <h1 className="md:pb-32 text-center text-xl px-6 pt-40 pb-16 tracking-[0.5rem]">
