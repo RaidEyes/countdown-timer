@@ -46,4 +46,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-image: url("../public/images/bg-stars.svg");
+  background-repeat: repeat;
 }
