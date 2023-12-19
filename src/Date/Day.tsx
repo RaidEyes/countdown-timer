@@ -1,5 +1,3 @@
-import React from "react";
-
 function Day(props: { day: number }) {
   return (
     <div>
