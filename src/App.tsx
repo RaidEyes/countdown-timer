@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Hour from "./Date/Hour";
 import Minute from "./Date/Minute";
 import Second from "./Date/Second";

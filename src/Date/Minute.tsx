@@ -1,5 +1,3 @@
-import React from "react";
-
 function Minute(props: { minute: number }) {
   return (
     <div>
